@@ -1,0 +1,36 @@
+{
+  "name": "apontamento-laplace",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --experimental-strip-types --test tests/model.test.ts",
+    "test:browser": "node tests/v2-browser.mjs",
+    "format": "prettier --write app components lib tests"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "katex": "0.19.1",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0",
+    "three-globe": "2.45.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/katex": "0.16.8",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2"
+  },
+  "type": "module"
+}

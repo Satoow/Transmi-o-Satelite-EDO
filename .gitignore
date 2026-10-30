@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.taste-skill/inspect/
+test-results/
+.npm-cache/
+
+.env*
+!.env.example
+.vercel/
+*.log
+.taste-skill/
+
